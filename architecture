@@ -1,4 +1,4 @@
-twitter_bot/
+social_agent/
 │
 ├── src/
 │   ├── __init__.py
