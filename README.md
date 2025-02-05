@@ -1,2 +1,2 @@
 # A-New-Paradigm
-ETHGLobal Hackathon
+ETHGlobal Hackathon
