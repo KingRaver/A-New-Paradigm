@@ -1,6 +1,6 @@
 # Market Analysis Agent
 
-A Python-based bot that monitors and analyzes the correlation between Ethereum (ETH) and Bitcoin (BTC) prices, providing automated market insights via Twitter posts.
+A Python-based agent that monitors and analyzes the correlation between Ethereum (ETH) and Bitcoin (BTC) prices, providing automated market insights via Twitter posts.
 
 ## Features
 
@@ -39,7 +39,7 @@ CLAUDE_API_KEY=your_claude_api_key
 
 ## Configuration
 
-The bot's behavior can be customized through the `config.py` file:
+The agent's behavior can be customized through the `config.py` file:
 
 - `CORRELATION_INTERVAL`: Time between analysis cycles (in minutes)
 - `MAX_RETRIES`: Maximum number of retry attempts for operations
@@ -49,12 +49,12 @@ The bot's behavior can be customized through the `config.py` file:
 
 ## Usage
 
-Run the bot:
+Run the agent:
 ```bash
 python3 ethbtc_correlation_bot.py
 ```
 
-The bot will:
+The agent will:
 1. Initialize and log in to Twitter
 2. Fetch cryptocurrency data from CoinGecko
 3. Generate market analysis using Claude
@@ -75,7 +75,7 @@ All errors are logged with detailed information for troubleshooting.
 ## Logging
 
 Logs are maintained for:
-- Bot startup/shutdown events
+- Agent startup/shutdown events
 - API requests and responses
 - Twitter interactions
 - Error events and stack traces
@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Disclaimer
 
-This bot is for educational and research purposes only. Cryptocurrency trading involves significant risks. Always conduct your own research before making investment decisions.
+This agent is for educational and research purposes only. Cryptocurrency trading involves significant risks. Always conduct your own research before making investment decisions.
