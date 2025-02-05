@@ -1,0 +1,15 @@
+twitter_bot/
+│
+├── src/
+│   ├── __init__.py
+│   ├── bot.py
+│   ├── config.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── browser.py
+│       └── logger.py
+│
+├── requirements.txt
+├── .env
+├── .env.example
+└── README.md
